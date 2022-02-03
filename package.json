@@ -46,11 +46,11 @@
     "@babel/runtime-corejs2": "^7.4.5",
     "ajv": "^6.7.0",
     "core-js": "^2.5.7",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "prop-types": "^15.5.8",
     "react-is": "^16.8.4",
     "react-lifecycles-compat": "^3.0.4",
-    "shortid": "^2.2.14"
+    "nanoid": "^3.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

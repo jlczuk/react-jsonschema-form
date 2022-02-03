@@ -19,7 +19,7 @@ import {
   toIdSchema,
   getDefaultRegistry,
 } from "../../utils";
-import shortid from "shortid";
+import nanoid from "nanoid";
 
 function ArrayFieldTitle({ TitleField, idSchema, title, required }) {
   if (!title) {
@@ -177,7 +177,7 @@ function DefaultNormalArrayFieldTemplate(props) {
 }
 
 function generateRowId() {
-  return shortid.generate();
+  return nanoid();
 }
 
 function generateKeyedFormData(formData) {
